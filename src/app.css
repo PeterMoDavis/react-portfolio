@@ -1,4 +1,14 @@
 body {
   background-color: black;
   color: white;
+  font-family: "Archivo";
+}
+
+a {
+  border-bottom: 2px black solid;
+  transition: all 0.5s;
+}
+
+a:hover {
+  border-bottom: 2px white solid;
 }
