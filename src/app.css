@@ -4,11 +4,55 @@ body {
   font-family: "Archivo";
 }
 
-a {
+.headerA {
   border-bottom: 2px black solid;
   transition: all 0.5s;
 }
 
-a:hover {
+.headerA:hover {
   border-bottom: 2px white solid;
+}
+
+.footerA {
+  transition: all 0.5s;
+  text-decoration: none;
+  border-bottom: solid RGB(245, 151, 135) 1px;
+}
+
+.footerA:hover {
+  border-bottom: 1px black solid;
+}
+
+.welcome {
+  animation: fade 5s infinite;
+}
+
+@keyframes fade {
+  from {
+    filter: brightness(0.8);
+  }
+  65% {
+    filter: brightness(0.8);
+  }
+  70% {
+    filter: brightness(1.2);
+  }
+  75% {
+    filter: brightness(0.8);
+  }
+  80% {
+    filter: brightness(1.2);
+  }
+  90% {
+    filter: brightness(0.8);
+  }
+  100% {
+    filter: brightness(0.8);
+  }
+}
+
+@media screen and (max-width: 1014px) {
+  .welcome {
+    opacity: 0;
+  }
 }

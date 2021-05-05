@@ -11,10 +11,13 @@ const styles = {
 const Header = () => {
   return (
     <div className="d-flex justify-content-between container mt-4">
-      <a style={styles.header} href="#">
+      <a className="headerA" style={styles.header} href="#">
         ABOUT
       </a>
-      <a style={styles.header} href="#">
+      <a className="headerA" style={styles.header} href="#">
+        PETER MODAVIS
+      </a>
+      <a className="headerA" style={styles.header} href="#">
         CONTACT
       </a>
     </div>
