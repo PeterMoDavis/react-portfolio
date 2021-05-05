@@ -21,9 +21,10 @@ const Footer = () => {
   };
   return (
     <div
-      className=" d-flex flex-column align-items-center pt-5 pb-4"
+      className=" d-flex flex-column align-items-center pt-4 pb-4"
       style={styles.container}
     >
+      <div style={styles.a}>CONTACT</div>
       <div className="border-top border-dark pt-3">
         <a className="footerA " style={styles.a} href="">
           GITHUB

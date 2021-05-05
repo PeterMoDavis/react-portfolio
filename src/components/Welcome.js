@@ -12,6 +12,9 @@ const styles = {
     letterSpacing: "3px",
     transition: "all 1s",
   },
+  img: {
+    width: "100px",
+  },
 };
 const Welcome = () => {
   return (
