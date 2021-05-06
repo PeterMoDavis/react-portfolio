@@ -20,7 +20,7 @@ Click on the about page to learn more about me, Peter 😃
 ## Contributing
 
 --[React](https://reactjs.org/)</br>
---[React-Router](https://reactrouter.com/)
+--[React-Router](https://reactrouter.com/)</br>
 --[Bootstrap](https://getbootstrap.com/)
 
 ## Questions
@@ -53,6 +53,6 @@ MIT License
 
 ## Badges
 
-![JavaScript](https://img.shields.io/badge/Javascript-73.4%25-yellow)
-![JavaScript](https://img.shields.io/badge/CSS-5.4%25-red)
-![JavaScript](https://img.shields.io/badge/HTML-21.2%25-green)
+![JavaScript](https://img.shields.io/badge/Javascript-66.1%25-yellow)
+![JavaScript](https://img.shields.io/badge/CSS-12.2%25-red)
+![JavaScript](https://img.shields.io/badge/HTML-21.7%25-green)
