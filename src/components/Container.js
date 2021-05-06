@@ -55,9 +55,10 @@ const Container = () => {
       </div>
 
       <div className=" d-flex justify-content-between flex-wrap pb-5">
-        {cards.map((each) => {
+        {cards.map((each, index) => {
           return (
             <Card
+              key={index}
               href={each.href}
               src={each.src}
               alt={each.alt}

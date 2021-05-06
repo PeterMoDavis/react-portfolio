@@ -44,14 +44,14 @@ const About = () => {
             <img id="heart" className="mx-2" src="./images/heart.png" alt="" />
           </span>
           <div className="mt-5 d-flex justify-content-around wrap">
-            <i id="red" style={styles.i} class="fab fa-git"></i>
-            <i id="orange" style={styles.i} class="fab fa-html5"></i>
-            <i id="yellow" style={styles.i} class="fab fa-css3"></i>
-            <i id="green" style={styles.i} class="fab fa-react"></i>
-            <i id="blue" style={styles.i} class="fab fa-js"></i>
-            <i id="purple" style={styles.i} class="fab fa-bootstrap"></i>
-            <i id="indigo" style={styles.i} class="fab fa-node-js"></i>
-            <i style={styles.i} class="fab fa-mdb"></i>
+            <i id="red" style={styles.i} className="fab fa-git"></i>
+            <i id="orange" style={styles.i} className="fab fa-html5"></i>
+            <i id="yellow" style={styles.i} className="fab fa-css3"></i>
+            <i id="green" style={styles.i} className="fab fa-react"></i>
+            <i id="blue" style={styles.i} className="fab fa-js"></i>
+            <i id="purple" style={styles.i} className="fab fa-bootstrap"></i>
+            <i id="indigo" style={styles.i} className="fab fa-node-js"></i>
+            <i style={styles.i} className="fab fa-mdb"></i>
           </div>
         </p>
       </div>

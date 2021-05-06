@@ -4,7 +4,7 @@ import "./app.css";
 import Footer from "./components/Footer";
 import Container from "./components/Container";
 import About from "./components/About";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -15,7 +15,6 @@ class App extends Component {
           <Header />
           <Switch>
             <Route path="/" exact component={Container} />
-            <Switch />
             <Route path="/about" component={About} />
           </Switch>
           <Footer />
