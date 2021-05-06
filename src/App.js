@@ -4,12 +4,12 @@ import "./app.css";
 import Footer from "./components/Footer";
 import Container from "./components/Container";
 import About from "./components/About";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter basename="/">
         <div>
           <Switch />
           <Header />
@@ -19,7 +19,7 @@ class App extends Component {
           </Switch>
           <Footer />
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
