@@ -45,6 +45,13 @@ const Footer = () => {
           LINKED IN
         </a>
       </div>
+      <div style={styles.a}>215-758-1982</div>
+      <div style={styles.a}>
+        {" "}
+        <a style={styles.a} href="mailto:email">
+          pmodavis.webdev@gmail.com
+        </a>{" "}
+      </div>
 
       <small className="mt-3">© 2021 Peter MoDavis All Rights Reserved </small>
     </div>

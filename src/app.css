@@ -25,6 +25,10 @@ body {
 
 .welcome {
   animation: fade 5s infinite;
+  text-shadow: 0px 0px 10px RGB(255, 103, 92);
+  color: RGB(255, 103, 92);
+  border-bottom: 3px solid white;
+  transition: all 2s;
 }
 
 #heart {
@@ -97,10 +101,27 @@ body {
   59% {
     width: 20px;
   }
+  78% {
+    width: 20px;
+  }
+  80% {
+    width: 25px;
+  }
+  83% {
+    width: 20px;
+  }
+  86% {
+    width: 25px;
+  }
+  89% {
+    width: 20px;
+  }
 }
 
 @media screen and (max-width: 1014px) {
   .welcome {
-    opacity: 0;
+    color: rgb(0, 255, 234);
+    text-shadow: 0px 0px 40px RGB(0, 255, 234);
+    border-bottom: none;
   }
 }

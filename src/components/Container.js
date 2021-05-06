@@ -50,7 +50,10 @@ const cards = [
 const Container = () => {
   return (
     <div>
-      <Welcome />
+      <div className="d-flex justify-content-center mt-3">
+        <Welcome />
+      </div>
+
       <div className=" d-flex justify-content-between flex-wrap pb-5">
         {cards.map((each) => {
           return (
