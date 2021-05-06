@@ -27,6 +27,33 @@ body {
   animation: fade 5s infinite;
 }
 
+#heart {
+  width: 20px;
+  animation: beat 5s infinite;
+}
+
+#red {
+  color: red;
+}
+#orange {
+  color: orange;
+}
+#yellow {
+  color: rgb(221, 193, 37);
+}
+#green {
+  color: green;
+}
+#blue {
+  color: blue;
+}
+#indigo {
+  color: indigo;
+}
+#purple {
+  color: purple;
+}
+
 @keyframes fade {
   from {
     filter: brightness(0.8);
@@ -48,6 +75,27 @@ body {
   }
   100% {
     filter: brightness(0.8);
+  }
+}
+
+@keyframes beat {
+  from {
+    width: 20px;
+  }
+  47% {
+    width: 20px;
+  }
+  50% {
+    width: 25px;
+  }
+  53% {
+    width: 20px;
+  }
+  56% {
+    width: 25px;
+  }
+  59% {
+    width: 20px;
   }
 }
 

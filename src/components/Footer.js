@@ -5,7 +5,7 @@ const Footer = () => {
     footer: {},
     container: {
       lineHeight: "2",
-      position: "realtive",
+      position: "relative",
       bottom: "0",
       width: "100%",
       backgroundColor: "RGB(245, 151, 135)",
@@ -26,12 +26,22 @@ const Footer = () => {
     >
       <div style={styles.a}>CONTACT</div>
       <div className="border-top border-dark pt-3">
-        <a className="footerA " style={styles.a} href="">
+        <a
+          className="footerA "
+          target="_blank"
+          style={styles.a}
+          href="https://github.com/PeterMoDavis"
+        >
           GITHUB
         </a>
       </div>
       <div>
-        <a className="footerA" style={styles.a} href="">
+        <a
+          className="footerA"
+          target="_blank"
+          style={styles.a}
+          href="https://www.linkedin.com/in/peter-modavis-76346b204/"
+        >
           LINKED IN
         </a>
       </div>
