@@ -20,7 +20,7 @@ const styles = {
 const Welcome = () => {
   return (
     <h1 className="welcome text-center    col" style={styles.welcome}>
-      work.
+      works.
     </h1>
   );
 };
