@@ -8,7 +8,7 @@ I built this portfolio to showcase my work as a web developer. I used React to m
 
 ## Usage
 
-All you have to do is go to the deployed portfolio [HERE]()
+All you have to do is go to the deployed portfolio [HERE](https://petermodavis.github.io/react-portfolio/#/)
 Once you land on the homepage you are able to click on any of the works to see individually deployed apps or click on their github icons to visit the repos.
 ![homepage](./public/images/homepage.png)
 <br/>
