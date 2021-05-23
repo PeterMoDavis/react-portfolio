@@ -4,11 +4,12 @@ import Card from "./Card";
 
 const cards = [
   {
-    href: "https://petermodavis.github.io/work-day-scheduler/",
+    href: "https://boilerplate-petermodavis.herokuapp.com/",
     src: "./images/boilerplate.png",
-    alt: "day planner app",
-    description: "Day Planner",
-    github: "https://github.com/PeterMoDavis/work-day-scheduler",
+    alt: "Boilerplate App",
+    description:
+      "Save and find all your coding Boilerplate in one convenient place.",
+    github: "https://github.com/PeterMoDavis/boilerplate",
   },
 
   {
