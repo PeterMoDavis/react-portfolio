@@ -4,12 +4,13 @@ import Card from "./Card";
 
 const cards = [
   {
-    href: "https://petermodavis.github.io/provisions/",
-    src: "./images/pervisions.png",
-    alt: "fireplace and menu",
-    description: "Ingredients and Winepairing",
-    github: "https://github.com/PeterMoDavis/provisions",
+    href: "https://petermodavis.github.io/work-day-scheduler/",
+    src: "./images/boilerplate.png",
+    alt: "day planner app",
+    description: "Day Planner",
+    github: "https://github.com/PeterMoDavis/work-day-scheduler",
   },
+
   {
     href: "https://petermodavis.github.io/portfolio-2/",
     src: "./images/portfolio-2.png",
@@ -25,12 +26,13 @@ const cards = [
     github: "https://github.com/PeterMoDavis/fung-id-1",
   },
   {
-    href: "https://petermodavis.github.io/employee-directory/",
-    src: "./images/employee-dir.png",
-    alt: "list of employees website",
-    description: "Employee Directory",
-    github: "https://github.com/PeterMoDavis/employee-directory",
+    href: "https://petermodavis.github.io/provisions/",
+    src: "./images/pervisions.png",
+    alt: "fireplace and menu",
+    description: "Ingredients and Winepairing",
+    github: "https://github.com/PeterMoDavis/provisions",
   },
+
   {
     href: "https://petermodavis.github.io/coding-quiz-challenge/",
     src: "./images/quiz.png",
@@ -39,11 +41,11 @@ const cards = [
     github: "https://github.com/PeterMoDavis/coding-quiz-challenge",
   },
   {
-    href: "https://petermodavis.github.io/work-day-scheduler/",
-    src: "./images/boilerplate.png",
-    alt: "day planner app",
-    description: "Day Planner",
-    github: "https://github.com/PeterMoDavis/work-day-scheduler",
+    href: "https://petermodavis.github.io/employee-directory/",
+    src: "./images/employee-dir.png",
+    alt: "list of employees website",
+    description: "Employee Directory",
+    github: "https://github.com/PeterMoDavis/employee-directory",
   },
 ];
 
