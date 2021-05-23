@@ -40,7 +40,7 @@ const cards = [
   },
   {
     href: "https://petermodavis.github.io/work-day-scheduler/",
-    src: "./images/day-planner.png",
+    src: "./images/boilerplate.png",
     alt: "day planner app",
     description: "Day Planner",
     github: "https://github.com/PeterMoDavis/work-day-scheduler",
