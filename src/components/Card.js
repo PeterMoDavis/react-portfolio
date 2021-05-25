@@ -24,6 +24,7 @@ const Card = (props) => {
           alt={props.alt}
         />
       </a>
+      <div>Hello</div>
       <div>
         <small style={styles.small}>
           {props.description}{" "}
