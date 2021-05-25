@@ -13,6 +13,9 @@ const Card = (props) => {
     i: {
       color: "rgb(245, 236, 140)",
     },
+    overlay: {
+      position: "relative",
+    },
   };
   return (
     <div className="mt-5 col-12 col-md-6 col-lg-4 text-center">
@@ -24,7 +27,9 @@ const Card = (props) => {
           alt={props.alt}
         />
       </a>
-      <div>Hello</div>
+      <div id="overlay">
+        <h2>Hello</h2>
+      </div>
       <div>
         <small style={styles.small}>
           {props.description}{" "}
