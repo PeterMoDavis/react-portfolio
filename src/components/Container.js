@@ -4,49 +4,102 @@ import Card from "./Card";
 
 const cards = [
   {
+    title: "Boilerplate",
     href: "https://boilerplate-petermodavis.herokuapp.com/",
     src: "./images/boilerplate.png",
     alt: "Boilerplate App",
     description:
       "Save and find all your coding Boilerplate in one convenient place.",
     github: "https://github.com/PeterMoDavis/boilerplate",
+    technologies: [
+      <i class="fab fa-html5 fa-md ml-2"></i>,
+      <i class="fab fa-css3-alt fa-md ml-2"></i>,
+      <i class="fab fa-js fa-md ml-2"></i>,
+      <i className="fab fa-react fa-md ml-2"></i>,
+      <i class="fab fa-bootstrap fa-md ml-2"></i>,
+      <i class="fab fa-node-js fa-md ml-2"></i>,
+      <i class="fab fa-mdb fa-md ml-2"></i>,
+    ],
+    specialNote:
+      '(just click on "Boilerplate" in the header to get to the dashboard.)',
   },
 
   {
+    title: "Portfolio 2",
     href: "https://petermodavis.github.io/portfolio-2/",
     src: "./images/portfolio-2.png",
     alt: "beatiful plants portfolio",
-    description: "Portfolio 2",
+    description: "A beautiful green portfolio built complete with dark-mode.",
     github: "https://github.com/PeterMoDavis/portfolio-2",
+    technologies: [
+      <i class="fab fa-html5 fa-md ml-2"></i>,
+      <i class="fab fa-css3-alt fa-md ml-2"></i>,
+      <i class="fab fa-js fa-md ml-2"></i>,
+      <i class="fab fa-bootstrap fa-md ml-2"></i>,
+    ],
   },
   {
+    title: "FUNG-ID",
     href: "https://fung-id-final.herokuapp.com/login",
     src: "./images/mushroom.png",
     alt: "mushroom website",
-    description: "Mushroom Foraging Website",
+    description:
+      "Save mushroom pics, titles, and descriptions to the database and the location is saved to the map.",
     github: "https://github.com/PeterMoDavis/fung-id-1",
+    technologies: [
+      <i class="fab fa-html5 fa-md ml-2"></i>,
+      <i class="fab fa-css3-alt fa-md ml-2"></i>,
+      <i class="fab fa-js fa-md ml-2"></i>,
+      <i class="fab fa-bootstrap fa-md ml-2"></i>,
+      <i class="fab fa-node-js fa-md ml-2"></i>,
+      <span className="ml-2">mySQL</span>,
+    ],
+    specialNote: "(SAMPLE LOGIN- EMAIL: gary@email.com PASSWORD: garygary)",
   },
   {
+    title: "Provisions",
     href: "https://petermodavis.github.io/provisions/",
     src: "./images/pervisions.png",
     alt: "fireplace and menu",
-    description: "Ingredients and Winepairing",
+    description:
+      "Enter your ingredients and with the help of a 3rd party API we'll give you a recipe and a wine-pairing.",
     github: "https://github.com/PeterMoDavis/provisions",
+    technologies: [
+      <i class="fab fa-html5 fa-md ml-2"></i>,
+      <i class="fab fa-css3-alt fa-md ml-2"></i>,
+      <i class="fab fa-js fa-md ml-2"></i>,
+    ],
   },
 
   {
+    title: "Quiz Game",
     href: "https://petermodavis.github.io/coding-quiz-challenge/",
     src: "./images/quiz.png",
     alt: "quiz app",
-    description: "Web Development Quiz",
+    description:
+      "A web development quiz that utilizes a lot of front end JS as well as local storage.",
     github: "https://github.com/PeterMoDavis/coding-quiz-challenge",
+    technologies: [
+      <i class="fab fa-html5 fa-md ml-2"></i>,
+      <i class="fab fa-css3-alt fa-md ml-2"></i>,
+      <i class="fab fa-js fa-md ml-2"></i>,
+    ],
   },
   {
+    title: "Employee Directory",
     href: "https://petermodavis.github.io/employee-directory/",
     src: "./images/employee-dir.png",
     alt: "list of employees website",
-    description: "Employee Directory",
+    description:
+      "An Employee Directory shows all employees in the 'API', you can filter by first name, last name, DOB or phone number.",
     github: "https://github.com/PeterMoDavis/employee-directory",
+    technologies: [
+      <i class="fab fa-html5 fa-md ml-2"></i>,
+      <i class="fab fa-css3-alt fa-md ml-2"></i>,
+      <i class="fab fa-js fa-md ml-2"></i>,
+      <i className="fab fa-react fa-md ml-2"></i>,
+      <i class="fab fa-bootstrap fa-md ml-2"></i>,
+    ],
   },
 ];
 
@@ -57,16 +110,19 @@ const Container = () => {
         <Welcome />
       </div>
 
-      <div className=" d-flex justify-content-between flex-wrap pb-5">
+      <div className=" d-flex justify-content-between align-content-baseline flex-wrap pb-5">
         {cards.map((each, index) => {
           return (
             <Card
               key={index}
+              title={each.title}
               href={each.href}
               src={each.src}
               alt={each.alt}
               description={each.description}
               github={each.github}
+              technologies={each.technologies}
+              specialNote={each.specialNote}
             />
           );
         })}
