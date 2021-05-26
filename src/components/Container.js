@@ -9,7 +9,7 @@ const cards = [
     src: "./images/boilerplate.png",
     alt: "Boilerplate App",
     description:
-      "Save and find all your coding Boilerplate in one convenient place.",
+      "Save, find, and filter your coding boilerplate all in one convenient place.",
     github: "https://github.com/PeterMoDavis/boilerplate",
     technologies: [
       <i class="fab fa-html5 fa-md ml-2"></i>,
@@ -29,7 +29,8 @@ const cards = [
     href: "https://petermodavis.github.io/portfolio-2/",
     src: "./images/portfolio-2.png",
     alt: "beatiful plants portfolio",
-    description: "A beautiful green portfolio built complete with dark-mode.",
+    description:
+      "A beautifully green portfolio complete with light-mode and dark-mode.",
     github: "https://github.com/PeterMoDavis/portfolio-2",
     technologies: [
       <i class="fab fa-html5 fa-md ml-2"></i>,
@@ -44,7 +45,7 @@ const cards = [
     src: "./images/mushroom.png",
     alt: "mushroom website",
     description:
-      "Save mushroom pics, titles, and descriptions to the database and the location is saved to the map.",
+      "Save a mushroom pic with title and description and it's coordinates are shown on the map.",
     github: "https://github.com/PeterMoDavis/fung-id-1",
     technologies: [
       <i class="fab fa-html5 fa-md ml-2"></i>,
@@ -54,7 +55,7 @@ const cards = [
       <i class="fab fa-node-js fa-md ml-2"></i>,
       <span className="ml-2">mySQL</span>,
     ],
-    specialNote: "(SAMPLE LOGIN- EMAIL: gary@email.com PASSWORD: garygary)",
+    specialNote: "(Email: gary@email.com Password: garygary)",
   },
   {
     title: "Provisions",
@@ -62,7 +63,7 @@ const cards = [
     src: "./images/pervisions.png",
     alt: "fireplace and menu",
     description:
-      "Enter your ingredients and with the help of a 3rd party API we'll give you a recipe and a wine-pairing.",
+      "Enter your ingredients and with the help of a 3rd party API we'll give you a recipe and wine-pairing.",
     github: "https://github.com/PeterMoDavis/provisions",
     technologies: [
       <i class="fab fa-html5 fa-md ml-2"></i>,
@@ -72,26 +73,12 @@ const cards = [
   },
 
   {
-    title: "Quiz Game",
-    href: "https://petermodavis.github.io/coding-quiz-challenge/",
-    src: "./images/quiz.png",
-    alt: "quiz app",
-    description:
-      "A web development quiz that utilizes a lot of front end JS as well as local storage.",
-    github: "https://github.com/PeterMoDavis/coding-quiz-challenge",
-    technologies: [
-      <i class="fab fa-html5 fa-md ml-2"></i>,
-      <i class="fab fa-css3-alt fa-md ml-2"></i>,
-      <i class="fab fa-js fa-md ml-2"></i>,
-    ],
-  },
-  {
     title: "Employee Directory",
     href: "https://petermodavis.github.io/employee-directory/",
     src: "./images/employee-dir.png",
     alt: "list of employees website",
     description:
-      "An Employee Directory shows all employees in the 'API', you can filter by first name, last name, DOB or phone number.",
+      "An Employee Directory shows all employees in the 'API'. Filter by first name, last name, DOB or phone number.",
     github: "https://github.com/PeterMoDavis/employee-directory",
     technologies: [
       <i class="fab fa-html5 fa-md ml-2"></i>,

@@ -36,6 +36,40 @@ body {
   animation: beat 5s infinite;
 }
 
+.main-container {
+  padding: 0;
+}
+
+.thumbnail {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.overlay {
+  opacity: 0;
+  transition: all 1s;
+  width: 80%;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.main-container:hover .thumbnail {
+  opacity: 0.3;
+}
+.main-container:hover .overlay {
+  opacity: 1;
+}
+
+.thumbnail:hover {
+  opacity: 0.3;
+}
+
+.thumbnail:hover + .overlay {
+  opacity: 1;
+}
+
 #red {
   color: red;
 }

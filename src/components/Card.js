@@ -8,13 +8,18 @@ const Card = (props) => {
     },
     paragraph: {
       color: "rgb(245, 236, 140)",
-      fontSize: "12px",
+      fontSize: "16px",
       margin: "0px 0px",
     },
     i: {
       color: "rgb(245, 236, 140)",
       margin: "0",
     },
+    github: {
+      color: "#33fff1",
+      margin: "0",
+    },
+
     title: {
       color: "RGB(255, 103, 92)",
       fontWeight: "700",
@@ -25,6 +30,13 @@ const Card = (props) => {
     },
     thumbnail: {
       position: "relative",
+    },
+    a: {
+      textDecoration: "none",
+    },
+    small: {
+      position: "relative",
+      bottom: "10px",
     },
   };
   return (
@@ -42,21 +54,32 @@ const Card = (props) => {
       </div>
 
       <div className="overlay container" style={styles.overlay}>
-        <p style={styles.paragraph} className="mt-2">
-          {props.description}
-          <span>
-            <a href={props.github}>
-              <i style={styles.i} className="ml-2 fab fa-lg fa-github"></i>
-            </a>
-          </span>
-        </p>
+        <a style={styles.a} href={props.href}>
+          <p style={styles.paragraph}>
+            {props.description}
+            <span>
+              <a href={props.github}>
+                <i
+                  style={styles.github}
+                  className="ml-2 fab fa-lg fa-github"
+                ></i>
+              </a>
+            </span>
+          </p>
 
-        <p style={styles.i} className="mb-0">
-          {props.technologies}
-        </p>
-        <small className="d-block" style={{ color: "white", fontSize: "10px" }}>
-          {props.specialNote}
-        </small>
+          <p style={styles.i} className="mb-0">
+            {props.technologies}
+          </p>
+          <small
+            className="d-block"
+            style={{
+              color: "white",
+              fontSize: "10px",
+            }}
+          >
+            {props.specialNote}
+          </small>
+        </a>
       </div>
     </div>
   );
