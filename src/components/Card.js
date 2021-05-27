@@ -3,7 +3,7 @@ import React from "react";
 const Card = (props) => {
   const styles = {
     img: {
-      width: "400px",
+      width: "600px",
       height: "auto",
     },
     paragraph: {
@@ -40,13 +40,16 @@ const Card = (props) => {
     },
   };
   return (
-    <div className="mt-5 main-container col-12 col-md-6 col-lg-4 text-center align-items-center d-flex justify-content-center container">
+    <div
+      style={styles.cardBody}
+      className=" mt-5 main-container col-12 col-lg-6 col-xxl-4 text-center align-items-center d-flex justify-content-center container"
+    >
       <div className="thumbnail " style={styles.thumbnail}>
         <h3 style={styles.title}>{props.title}</h3>
         <a href={props.href}>
           <img
             style={styles.img}
-            className="image-fluid "
+            className="image-fluid"
             src={props.src}
             alt={props.alt}
           />
