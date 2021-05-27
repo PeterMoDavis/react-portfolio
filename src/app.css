@@ -39,6 +39,10 @@ body {
 .main-container {
   padding: 0;
 }
+.project-image {
+  width: 600px;
+  height: auto;
+}
 
 .thumbnail {
   opacity: 1;
@@ -48,7 +52,7 @@ body {
 .overlay {
   opacity: 0;
   transition: all 1s;
-  width: 80%;
+  width: 65%;
 }
 
 .overlay:hover {
@@ -157,5 +161,23 @@ body {
     color: rgb(0, 255, 234);
     text-shadow: 0px 0px 40px RGB(0, 255, 234);
     border-bottom: none;
+    border-top: solid 2px rgb(0, 255, 234);
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .card-container {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-image {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .project-image {
+    width: 700px;
   }
 }

@@ -97,7 +97,7 @@ const Container = () => {
         <Welcome />
       </div>
 
-      <div className=" d-flex justify-content-between align-content-baseline flex-wrap pb-5">
+      <div className="card-container d-flex justify-content-between align-content-baseline flex-wrap pb-5">
         {cards.map((each, index) => {
           return (
             <Card

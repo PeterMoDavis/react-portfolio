@@ -2,10 +2,6 @@ import React from "react";
 
 const Card = (props) => {
   const styles = {
-    img: {
-      width: "600px",
-      height: "auto",
-    },
     paragraph: {
       color: "rgb(245, 236, 140)",
       fontSize: "16px",
@@ -49,7 +45,7 @@ const Card = (props) => {
         <a href={props.href}>
           <img
             style={styles.img}
-            className="image-fluid"
+            className="image-fluid project-image"
             src={props.src}
             alt={props.alt}
           />

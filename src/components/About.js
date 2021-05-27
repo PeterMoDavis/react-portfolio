@@ -1,7 +1,7 @@
 import React from "react";
 const styles = {
   img: {
-    width: "500px",
+    width: "700px",
   },
   p: {
     color: "black",
@@ -24,7 +24,7 @@ const About = () => {
       style={{ background: "yellow" }}
       className="d-flex flex-md-row align-items-center flex-column-reverse"
     >
-      <img style={styles.img} src="./images/peter-torso.png" alt="" />
+      <img style={styles.img} src="./images/petejungle.png" alt="" />
       <div className="container mt-5 mb-0">
         <h3 style={styles.h3} className="text-center d-block d-md-none">
           PETER MODAVIS
