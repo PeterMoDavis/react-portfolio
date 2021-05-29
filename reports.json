@@ -1,0 +1,22 @@
+[
+  {
+    "date": "05/29/2021",
+    "title": "Built Progress Log",
+    "description": "Built this very Progress log and made a JSON file to be fetched and looped over."
+  },
+  {
+    "date": "test date1",
+    "title": "Built Progress Log",
+    "description": "Built this very Progress log and made a JSON file to be fetched and looped over."
+  },
+  {
+    "date": "test date2",
+    "title": "Built Progress Log",
+    "description": "Built this very Progress log and made a JSON file to be fetched and looped over."
+  },
+  {
+    "date": "test date3",
+    "title": "Built Progress Log",
+    "description": "Built this very Progress log and made a JSON file to be fetched and looped over."
+  }
+]
