@@ -32,7 +32,7 @@ const LearningLog = () => {
   };
 
   const getReports = () => {
-    fetch("../reports.json", {
+    fetch("./reports.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
