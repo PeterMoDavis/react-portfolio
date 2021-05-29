@@ -4,6 +4,7 @@ import "./app.css";
 import Footer from "./components/Footer";
 import Container from "./components/Container";
 import About from "./components/About";
+import LearningLog from "./components/LearningLog";
 import { HashRouter, Switch, Route } from "react-router-dom";
 
 class App extends Component {

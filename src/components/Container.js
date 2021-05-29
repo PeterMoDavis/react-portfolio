@@ -1,6 +1,9 @@
 import React from "react";
 import Welcome from "./Welcome";
 import Card from "./Card";
+import LearningLog from "./LearningLog";
+
+import { Element } from "react-scroll";
 
 const cards = [
   {
@@ -96,7 +99,7 @@ const Container = () => {
       <div className="d-flex justify-content-center mt-3">
         <Welcome />
       </div>
-
+      <div></div>
       <div className="card-container d-flex justify-content-between align-content-baseline flex-wrap pb-5">
         {cards.map((each, index) => {
           return (
@@ -113,6 +116,11 @@ const Container = () => {
             />
           );
         })}
+      </div>
+      <div>
+        <Element id="learning-log" name="learning-log">
+          <LearningLog />
+        </Element>
       </div>
     </div>
   );

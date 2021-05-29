@@ -22,7 +22,7 @@ const About = () => {
   return (
     <div
       style={{ background: "yellow" }}
-      className="d-flex flex-md-row align-items-center flex-column-reverse"
+      className="d-flex flex-md-row align-items-center flex-column-reverse mt-4"
     >
       <img style={styles.img} src="./images/petejungle.png" alt="" />
       <div className="container mt-5 mb-0">
