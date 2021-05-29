@@ -12,7 +12,7 @@ class LearningLog extends Component {
       backgroundColor: "rgb(0, 255, 234)",
       borderRadius: "5px",
       boxShadow: "0 0 10px rgb(0, 255, 234)",
-      width: "60vw",
+      width: "80vw",
       height: "30vh",
       overflowY: "auto",
     },
@@ -57,12 +57,28 @@ class LearningLog extends Component {
   };
 
   filterReports = (e) => {
-    this.setState({ search: e.target.value });
-    let regex = RegExp(this.state.search, "gi");
-    this.setState({
-      reports: this.reports.filter((each) => {
-        return each.tools.match(regex);
-      }),
+    this.setState({ search: e.target.value }, () => {
+      let regex = RegExp(this.state.search, "gi");
+      fetch("./reports.json", {
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+      })
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          this.setState({
+            reports: data.filter((each) => {
+              return (
+                each.tools.match(regex) ||
+                each.title.match(regex) ||
+                each.description.match(regex)
+              );
+            }),
+          });
+        });
     });
   };
   componentDidMount() {
