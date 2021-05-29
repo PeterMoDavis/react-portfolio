@@ -1,11 +1,12 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { Component } from "react";
 
-const LearningLog = () => {
-  const [reports, setReports] = useState([]);
-  const [search, setSearch] = useState("");
+class LearningLog extends Component {
+  state = {
+    reports: [],
+    search: "",
+  };
 
-  const styles = {
+  styles = {
     logContainer: {
       border: " rgb(0, 255, 234) solid 2px",
       backgroundColor: "rgb(0, 255, 234)",
@@ -39,7 +40,7 @@ const LearningLog = () => {
     },
   };
 
-  const getReports = () => {
+  getReports = () => {
     fetch("./reports.json", {
       headers: {
         "Content-Type": "application/json",
@@ -50,70 +51,76 @@ const LearningLog = () => {
         return res.json();
       })
       .then((data) => {
-        setReports(data);
+        this.setState({ reports: data });
+        console.log(this.state.reports);
       });
   };
 
-  const filterReports = (e) => {
-    setSearch(e.target.value);
-    let regex = RegExp("search", "gi");
-    console.log(regex);
+  filterReports = (e) => {
+    this.setState({ search: e.target.value });
+    let regex = RegExp(this.state.search, "gi");
+    this.setState({
+      reports: this.reports.filter((each) => {
+        return each.tools.match(regex);
+      }),
+    });
   };
-  useEffect(() => {
-    getReports();
-    console.log(reports);
-    console.log(reports.title[0]);
-  }, []);
+  componentDidMount() {
+    this.getReports();
+    console.log(this.state.reports);
+  }
 
-  return (
-    <div className="d-flex flex-column align-items-center my-4">
-      <h4 style={styles.header} className="mt-1 text-center">
-        PROGRESS LOG
-      </h4>
-      <input
-        onChange={filterReports}
-        type="text"
-        style={styles.input}
-        className="mt-2 mb-4 p-1"
-        placeholder="Search"
-      />
-      <div
-        style={styles.logContainer}
-        className="d-flex flex-column align-items-center"
-      >
-        <table className="table" style={styles.table}>
-          <thead>
-            <tr>
-              <th style={styles.tableHeader} scope="col">
-                Date
-              </th>
-              <th style={styles.tableHeader} scope="col">
-                Title
-              </th>
-              <th style={styles.tableHeader} scope="col">
-                Description
-              </th>
-              <th style={styles.tableHeader} scope="col">
-                Tools
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {reports.map((each) => {
-              return (
-                <tr style={styles.table}>
-                  <td style={styles.tableBody}>{each.date}</td>
-                  <td style={styles.tableBody}>{each.title}</td>
-                  <td style={styles.tableBody}>{each.description}</td>
-                  <td style={styles.tableBody}>{each.tools}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
+  render() {
+    return (
+      <div className="d-flex flex-column align-items-center my-4">
+        <h4 style={this.styles.header} className="mt-1 text-center">
+          PROGRESS LOG
+        </h4>
+        <input
+          onChange={this.filterReports}
+          type="text"
+          style={this.styles.input}
+          className="mt-2 mb-4 p-1"
+          placeholder="Search"
+        />
+        <div
+          style={this.styles.logContainer}
+          className="d-flex flex-column align-items-center"
+        >
+          <table className="table" style={this.styles.table}>
+            <thead>
+              <tr>
+                <th style={this.styles.tableHeader} scope="col">
+                  Date
+                </th>
+                <th style={this.styles.tableHeader} scope="col">
+                  Title
+                </th>
+                <th style={this.styles.tableHeader} scope="col">
+                  Description
+                </th>
+                <th style={this.styles.tableHeader} scope="col">
+                  Tools
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              {this.state.reports.map((each) => {
+                return (
+                  <tr style={this.styles.table} key={each.index}>
+                    <td style={this.styles.tableBody}>{each.date}</td>
+                    <td style={this.styles.tableBody}>{each.title}</td>
+                    <td style={this.styles.tableBody}>{each.description}</td>
+                    <td style={this.styles.tableBody}>{each.tools}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default LearningLog;

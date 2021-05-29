@@ -8,16 +8,19 @@
   {
     "date": "test date1",
     "title": "Built Progress Log",
-    "description": "Built this very Progress log and made a JSON file to be fetched and looped over."
+    "description": "Built this very Progress log and made a JSON file to be fetched and looped over.",
+    "tools": ""
   },
   {
     "date": "test date2",
     "title": "Built Progress Log",
-    "description": "Built this very Progress log and made a JSON file to be fetched and looped over."
+    "description": "Built this very Progress log and made a JSON file to be fetched and looped over.",
+    "tools": ""
   },
   {
     "date": "test date3",
     "title": "Built Progress Log",
-    "description": "Built this very Progress log and made a JSON file to be fetched and looped over."
+    "description": "Built this very Progress log and made a JSON file to be fetched and looped over.",
+    "tools": ""
   }
 ]
