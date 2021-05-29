@@ -2,7 +2,7 @@
   {
     "date": "05/29/2021",
     "title": "Built Progress Log",
-    "description": "Built this very Progress log and made a JSON file to be fetched and looped over."
+    "description": "Built this very Progress log and made a JSON file to be fetched and looped over. Also used a nice sticky header on a table for the first time."
   },
   {
     "date": "test date1",
