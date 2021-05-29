@@ -16,18 +16,17 @@ const LearningLog = () => {
     header: {
       fontWeight: "800",
       letterSpacing: "10px",
-      color: " black",
+      color: "rgb(0, 255, 234)",
     },
-    cursor: {
-      height: "30px",
-      width: "20px",
-      backgroundColor: "black",
-      borderRadius: "2px",
+
+    tableHeader: {
+      border: "none",
+      position: "sticky",
+      top: "0",
+      zIndex: "1",
+      background: "rgb(0, 255, 234)",
     },
-    p: {
-      color: "black",
-    },
-    table: {
+    tableBody: {
       border: "1px black solid",
     },
   };
@@ -52,24 +51,24 @@ const LearningLog = () => {
   }, []);
 
   return (
-    <div className="d-flex justify-content-center my-4">
+    <div className="d-flex flex-column align-items-center my-4">
+      <h4 style={styles.header} className="mt-1 text-center">
+        PROGRESS LOG
+      </h4>
       <div
         style={styles.logContainer}
-        className="d-flex flex-column align-items-center p-2"
+        className="d-flex flex-column align-items-center"
       >
-        <h4 style={styles.header} className="mt-1 text-center">
-          PROGRESS LOG
-        </h4>
         <table className="table" style={styles.table}>
           <thead>
             <tr>
-              <th style={styles.table} scope="col">
+              <th style={styles.tableHeader} scope="col">
                 Date
               </th>
-              <th style={styles.table} scope="col">
+              <th style={styles.tableHeader} scope="col">
                 Title
               </th>
-              <th style={styles.table} scope="col">
+              <th style={styles.tableHeader} scope="col">
                 Description
               </th>
             </tr>
@@ -77,10 +76,10 @@ const LearningLog = () => {
           <tbody>
             {reports.map((each) => {
               return (
-                <tr>
-                  <td>{each.date}</td>
-                  <td>{each.title}</td>
-                  <td>{each.description}</td>
+                <tr style={styles.table}>
+                  <td style={styles.tableBody}>{each.date}</td>
+                  <td style={styles.tableBody}>{each.title}</td>
+                  <td style={styles.tableBody}>{each.description}</td>
                 </tr>
               );
             })}
