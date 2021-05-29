@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 
 const LearningLog = () => {
   const [reports, setReports] = useState([]);
+  const [search, setSearch] = useState("");
+
   const styles = {
     logContainer: {
       border: " rgb(0, 255, 234) solid 2px",
@@ -10,7 +12,7 @@ const LearningLog = () => {
       borderRadius: "5px",
       boxShadow: "0 0 10px rgb(0, 255, 234)",
       width: "60vw",
-      height: "20vh",
+      height: "30vh",
       overflowY: "auto",
     },
     header: {
@@ -29,6 +31,12 @@ const LearningLog = () => {
     tableBody: {
       border: "1px black solid",
     },
+    input: {
+      width: "200px",
+      borderRadius: "3px",
+      border: "none",
+      backgroundColor: "rgb(245, 236, 140)",
+    },
   };
 
   const getReports = () => {
@@ -45,9 +53,16 @@ const LearningLog = () => {
         setReports(data);
       });
   };
+
+  const filterReports = (e) => {
+    setSearch(e.target.value);
+    let regex = RegExp("search", "gi");
+    console.log(regex);
+  };
   useEffect(() => {
     getReports();
     console.log(reports);
+    console.log(reports.title[0]);
   }, []);
 
   return (
@@ -55,6 +70,13 @@ const LearningLog = () => {
       <h4 style={styles.header} className="mt-1 text-center">
         PROGRESS LOG
       </h4>
+      <input
+        onChange={filterReports}
+        type="text"
+        style={styles.input}
+        className="mt-2 mb-4 p-1"
+        placeholder="Search"
+      />
       <div
         style={styles.logContainer}
         className="d-flex flex-column align-items-center"
@@ -71,6 +93,9 @@ const LearningLog = () => {
               <th style={styles.tableHeader} scope="col">
                 Description
               </th>
+              <th style={styles.tableHeader} scope="col">
+                Tools
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -80,6 +105,7 @@ const LearningLog = () => {
                   <td style={styles.tableBody}>{each.date}</td>
                   <td style={styles.tableBody}>{each.title}</td>
                   <td style={styles.tableBody}>{each.description}</td>
+                  <td style={styles.tableBody}>{each.tools}</td>
                 </tr>
               );
             })}

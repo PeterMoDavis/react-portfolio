@@ -74,6 +74,10 @@ body {
   opacity: 1;
 }
 
+input:focus {
+  outline: none;
+}
+
 #red {
   color: red;
 }
