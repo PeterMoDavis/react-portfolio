@@ -23,6 +23,7 @@ const cards = [
     ],
     specialNote:
       '(just click on "Boilerplate" in the header to get to the dashboard.)',
+    tools: "react, mongodb, express, node",
   },
 
   {
@@ -39,6 +40,7 @@ const cards = [
       <i class="fab fa-js fa-md ml-2"></i>,
       <i class="fab fa-bootstrap fa-md ml-2"></i>,
     ],
+    tools: "react",
   },
   {
     title: "FUNG-ID",
@@ -57,6 +59,7 @@ const cards = [
       <span className="ml-2">mySQL</span>,
     ],
     specialNote: "(Email: gary@email.com Password: garygary)",
+    tools: "express, node",
   },
   {
     title: "Provisions",
@@ -71,6 +74,7 @@ const cards = [
       <i class="fab fa-css3-alt fa-md ml-2"></i>,
       <i class="fab fa-js fa-md ml-2"></i>,
     ],
+    tools: "javascript",
   },
 
   {
@@ -88,16 +92,57 @@ const cards = [
       <i className="fab fa-react fa-md ml-2"></i>,
       <i class="fab fa-bootstrap fa-md ml-2"></i>,
     ],
+    tools: "react",
   },
 ];
 
 class Container extends Component {
   state = {
-    projects: cards,
+    projects: [],
   };
 
   componentDidMount() {
-    console.log(this.state.projects);
+    this.setState({ projects: cards });
+  }
+
+  filterReact() {
+    this.setState({ projects: cards }, () => {
+      this.setState({
+        projects: this.state.projects.filter((each) => {
+          return each.tools.match(/react/gi);
+        }),
+      });
+    });
+  }
+
+  filterMongo() {
+    this.setState({ projects: cards }, () => {
+      this.setState({
+        projects: this.state.projects.filter((each) => {
+          return each.tools.match(/mongo/gi);
+        }),
+      });
+    });
+  }
+
+  filterExpress() {
+    this.setState({ projects: cards }, () => {
+      this.setState({
+        projects: this.state.projects.filter((each) => {
+          return each.tools.match(/express/gi);
+        }),
+      });
+    });
+  }
+
+  filterNode() {
+    this.setState({ projects: cards }, () => {
+      this.setState({
+        projects: this.state.projects.filter((each) => {
+          return each.tools.match(/node/gi);
+        }),
+      });
+    });
   }
 
   render() {
@@ -106,28 +151,31 @@ class Container extends Component {
         <div className="d-flex justify-content-center mt-3">
           <Welcome />
         </div>
-        <div
-          className="d-flex justify-content-around container  mt-3"
-          style={{ color: "blue" }}
-        >
+        <div className="d-flex justify-content-around container  mt-3">
           <i
+            onClick={() => this.filterReact()}
             className="fab fa-react fa-2x"
             style={{ color: "RGB(255, 103, 92)" }}
           ></i>
           <i
+            onClick={() => this.filterMongo()}
             className="fab fa-mdb fa-2x"
             style={{ color: "RGB(252, 186, 3)" }}
           ></i>
-          <span style={{ fontSize: "24px", color: "RGB(252, 244, 3)" }}>
+          <span
+            onClick={() => this.filterExpress()}
+            style={{ fontSize: "24px", color: "RGB(252, 244, 3)" }}
+          >
             ex
           </span>
           <i
+            onClick={() => this.filterNode()}
             className="fab fa-node fa-2x"
             style={{ color: "RGB(78, 252, 3)" }}
           ></i>
         </div>
         <div className="card-container d-flex justify-content-between align-content-baseline flex-wrap pb-5">
-          {cards.map((each, index) => {
+          {this.state.projects.map((each, index) => {
             return (
               <Card
                 key={index}
