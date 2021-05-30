@@ -4,5 +4,11 @@
     "title": "Built Progress Log",
     "description": "This is my very first entry into the 'Progress Log' and the progress that I'm loggin is the 'Progress Log' itself. I fetched a local JSON with the information on it and looped over it to make this list (only 1 entry right now).  Then made it searchable by Title, Description or Tools. Had to change the function component into a class component which wasn't all that bad. I'll try and log things i've learned, tasks I've accomplished or failed here... Probably should make this log responsive ha ha. 🚀",
     "tools": "react, javascript, json, sticky, css, bootstrap, tables"
+  },
+  {
+    "date": "05/30/2021",
+    "title": "Added Filter Buttons to Portfolio",
+    "description": "I added icon buttons to the top of the page that when clicked will filter the projects out that have that used that tool during developement.",
+    "tools": "react, bootstrap"
   }
 ]
