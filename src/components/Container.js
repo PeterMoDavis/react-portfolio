@@ -1,9 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import Welcome from "./Welcome";
 import Card from "./Card";
 import LearningLog from "./LearningLog";
-
-import { Element } from "react-scroll";
 
 const cards = [
   {
@@ -93,37 +91,64 @@ const cards = [
   },
 ];
 
-const Container = () => {
-  return (
-    <div>
-      <div className="d-flex justify-content-center mt-3">
-        <Welcome />
-      </div>
-      <div></div>
-      <div className="card-container d-flex justify-content-between align-content-baseline flex-wrap pb-5">
-        {cards.map((each, index) => {
-          return (
-            <Card
-              key={index}
-              title={each.title}
-              href={each.href}
-              src={each.src}
-              alt={each.alt}
-              description={each.description}
-              github={each.github}
-              technologies={each.technologies}
-              specialNote={each.specialNote}
-            />
-          );
-        })}
-      </div>
+class Container extends Component {
+  state = {
+    projects: cards,
+  };
+
+  componentDidMount() {
+    console.log(this.state.projects);
+  }
+
+  render() {
+    return (
       <div>
-        <Element id="learning-log" name="learning-log">
+        <div className="d-flex justify-content-center mt-3">
+          <Welcome />
+        </div>
+        <div
+          className="d-flex justify-content-around container  mt-3"
+          style={{ color: "blue" }}
+        >
+          <i
+            className="fab fa-react fa-2x"
+            style={{ color: "RGB(255, 103, 92)" }}
+          ></i>
+          <i
+            className="fab fa-mdb fa-2x"
+            style={{ color: "RGB(252, 186, 3)" }}
+          ></i>
+          <span style={{ fontSize: "24px", color: "RGB(252, 244, 3)" }}>
+            ex
+          </span>
+          <i
+            className="fab fa-node fa-2x"
+            style={{ color: "RGB(78, 252, 3)" }}
+          ></i>
+        </div>
+        <div className="card-container d-flex justify-content-between align-content-baseline flex-wrap pb-5">
+          {cards.map((each, index) => {
+            return (
+              <Card
+                key={index}
+                title={each.title}
+                href={each.href}
+                src={each.src}
+                alt={each.alt}
+                description={each.description}
+                github={each.github}
+                technologies={each.technologies}
+                specialNote={each.specialNote}
+              />
+            );
+          })}
+        </div>
+        <div>
           <LearningLog />
-        </Element>
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default Container;
