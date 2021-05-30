@@ -79,15 +79,19 @@ input:focus {
 }
 
 .filterIcon {
-  transition: all 0.3s;
+  transition: all 0.01s;
 }
 
 .filterIcon:active {
-  transform: rotate(360deg);
+  transform: translateY(3px);
 }
 
 .filterIcon:hover {
   cursor: pointer;
+}
+
+.filter-container {
+  width: 50vw;
 }
 
 #red {

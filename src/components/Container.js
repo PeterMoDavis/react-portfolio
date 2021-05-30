@@ -20,6 +20,7 @@ const cards = [
       <i class="fab fa-bootstrap fa-md ml-2"></i>,
       <i class="fab fa-node-js fa-md ml-2"></i>,
       <i class="fab fa-mdb fa-md ml-2"></i>,
+      <span className="ml-2">ex</span>,
     ],
     specialNote:
       '(just click on "Boilerplate" in the header to get to the dashboard.)',
@@ -57,6 +58,7 @@ const cards = [
       <i class="fab fa-bootstrap fa-md ml-2"></i>,
       <i class="fab fa-node-js fa-md ml-2"></i>,
       <span className="ml-2">mySQL</span>,
+      <span className="ml-2">ex</span>,
     ],
     specialNote: "(Email: gary@email.com Password: garygary)",
     tools: "express, node, bootstrap",
@@ -161,7 +163,7 @@ class Container extends Component {
         <div className="d-flex justify-content-center mt-3">
           <Welcome />
         </div>
-        <div className="d-flex justify-content-around container  mt-3">
+        <div className="d-flex justify-content-around container filter-container mt-3">
           <i
             onClick={() => this.filterReact()}
             className="filterIcon fab fa-react fa-2x"
