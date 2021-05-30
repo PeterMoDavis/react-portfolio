@@ -23,7 +23,7 @@ const cards = [
     ],
     specialNote:
       '(just click on "Boilerplate" in the header to get to the dashboard.)',
-    tools: "react, mongodb, express, node",
+    tools: "react, mongodb, express, node, bootstrap",
   },
 
   {
@@ -40,7 +40,7 @@ const cards = [
       <i class="fab fa-js fa-md ml-2"></i>,
       <i class="fab fa-bootstrap fa-md ml-2"></i>,
     ],
-    tools: "react",
+    tools: "react, bootstrap",
   },
   {
     title: "FUNG-ID",
@@ -59,7 +59,7 @@ const cards = [
       <span className="ml-2">mySQL</span>,
     ],
     specialNote: "(Email: gary@email.com Password: garygary)",
-    tools: "express, node",
+    tools: "express, node, bootstrap",
   },
   {
     title: "Provisions",
@@ -92,7 +92,7 @@ const cards = [
       <i className="fab fa-react fa-md ml-2"></i>,
       <i class="fab fa-bootstrap fa-md ml-2"></i>,
     ],
-    tools: "react",
+    tools: "react, bootstrap",
   },
 ];
 
@@ -145,6 +145,16 @@ class Container extends Component {
     });
   }
 
+  filterBootstrap() {
+    this.setState({ projects: cards }, () => {
+      this.setState({
+        projects: this.state.projects.filter((each) => {
+          return each.tools.match(/bootstrap/gi);
+        }),
+      });
+    });
+  }
+
   render() {
     return (
       <div>
@@ -172,6 +182,11 @@ class Container extends Component {
             onClick={() => this.filterNode()}
             className="fab fa-node fa-2x"
             style={{ color: "RGB(78, 252, 3)" }}
+          ></i>
+          <i
+            onClick={() => this.filterBootstrap()}
+            className="fab fa-bootstrap fa-2x"
+            style={{ color: "rgb(0, 255, 234)" }}
           ></i>
         </div>
         <div className="card-container d-flex justify-content-between align-content-baseline flex-wrap pb-5">
