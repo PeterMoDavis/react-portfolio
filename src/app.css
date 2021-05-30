@@ -78,6 +78,18 @@ input:focus {
   outline: none;
 }
 
+.filterIcon {
+  transition: all 0.3s;
+}
+
+.filterIcon:active {
+  transform: rotate(360deg);
+}
+
+.filterIcon:hover {
+  cursor: pointer;
+}
+
 #red {
   color: red;
 }

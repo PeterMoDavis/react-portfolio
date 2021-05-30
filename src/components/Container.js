@@ -164,15 +164,16 @@ class Container extends Component {
         <div className="d-flex justify-content-around container  mt-3">
           <i
             onClick={() => this.filterReact()}
-            className="fab fa-react fa-2x"
+            className="filterIcon fab fa-react fa-2x"
             style={{ color: "RGB(255, 103, 92)" }}
           ></i>
           <i
             onClick={() => this.filterMongo()}
-            className="fab fa-mdb fa-2x"
+            className="filterIcon fab fa-mdb fa-2x"
             style={{ color: "RGB(252, 186, 3)" }}
           ></i>
           <span
+            className="filterIcon"
             onClick={() => this.filterExpress()}
             style={{ fontSize: "24px", color: "RGB(252, 244, 3)" }}
           >
@@ -180,12 +181,12 @@ class Container extends Component {
           </span>
           <i
             onClick={() => this.filterNode()}
-            className="fab fa-node fa-2x"
+            className="filterIcon fab fa-node fa-2x"
             style={{ color: "RGB(78, 252, 3)" }}
           ></i>
           <i
             onClick={() => this.filterBootstrap()}
-            className="fab fa-bootstrap fa-2x"
+            className="filterIcon fab fa-bootstrap fa-2x"
             style={{ color: "rgb(0, 255, 234)" }}
           ></i>
         </div>
