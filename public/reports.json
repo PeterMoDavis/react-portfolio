@@ -2,7 +2,8 @@
   {
     "date": "06/01/2021",
     "title": "Worked on the Bigfoot App",
-    "description": "Worked all day long on the Bigfoot App. It was pretty frusterating because I couldn't get the state to keep up with the rendering from the API call.  I ended up just using a variable which i think is a no no but it sort of worked. Mapbox is pretty cool.  I would like it if bigfoot sighting pins would only load if they are within 10 miles of the user but that seems like a big battle."
+    "description": "Worked all day long on the Bigfoot App. It was pretty frusterating because I couldn't get the state to keep up with the rendering from the API call.  I ended up just using a variable which i think is a no no but it sort of worked. Mapbox is pretty cool.  I would like it if bigfoot sighting pins would only load if they are within 10 miles of the user but that seems like a big battle.",
+    "tools": "react, state, useEffect, javascript mapbox"
   },
   {
     "date": "05/31/2021",
@@ -10,7 +11,12 @@
     "description": "MEMORIAL DAY - I'm trying to get a users current position on a map that's proving to be more difficult then I thought iT would be because the async nature of getting a location",
     "tools": "react, async, javascript, maps, geolocation"
   },
-  {},
+  {
+    "date": "05/30/2021",
+    "title": "Added Filter Buttons to Portfolio",
+    "description": "I added icon buttons to the top of the page that when clicked will filter the projects out that have that used that tool during developement.",
+    "tools": "react, bootstrap"
+  },
   {
     "date": "05/29/2021",
     "title": "Built Progress Log",
