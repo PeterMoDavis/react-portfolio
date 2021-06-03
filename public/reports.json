@@ -1,5 +1,11 @@
 [
   {
+    "date": "06/02/2021",
+    "title": "Sorta finished the Bigfoot App",
+    "description": "I worked on the bigfoot app today and added some ridiculous CSS and soundeffects for my own enjoyment.  It's close to done but I kind of wish i could have gotten the bigfoot pins to only appear on getting the users current position and I'd also like to have a search bar.  The api call isn't getting all the results so I have to figure out how to make subsequent fetches tomorrow. Wasn't as fun as I thought it would be :/",
+    "tools": "react, api, css, javascript, animation, transitions, mapbox"
+  },
+  {
     "date": "06/01/2021",
     "title": "Worked on the Bigfoot App",
     "description": "Worked all day long on the Bigfoot App. It was pretty frusterating because I couldn't get the state to keep up with the rendering from the API call.  I ended up just using a variable which i think is a no no but it sort of worked. Mapbox is pretty cool.  I would like it if bigfoot sighting pins would only load if they are within 10 miles of the user but that seems like a big battle.",
