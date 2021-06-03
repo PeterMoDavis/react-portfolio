@@ -41,6 +41,7 @@ const Card = (props) => {
       className=" mt-5 main-container col-12 col-lg-6 col-xxl-4 text-center align-items-center d-flex justify-content-center container"
     >
       <div className="thumbnail " style={styles.thumbnail}>
+        <h5 className="mb-0">{props.status}</h5>
         <h3 style={styles.title}>{props.title}</h3>
         <a href={props.href}>
           <img

@@ -26,6 +26,24 @@ const cards = [
       '(just click on "Boilerplate" in the header to get to the dashboard.)',
     tools: "react, mongodb, express, node, bootstrap",
   },
+  {
+    status: "New!",
+    title: "Bigfoot Encounters",
+    href: "https://petermodavis.github.io/bigfoot/",
+    src: "./images/bigfoot.png",
+    alt: "a map of bigfoot sightings",
+    description:
+      "A simple and silly app showing the current position of the user and descriptions of surrounding bigfoot sightings.",
+    github: "https://github.com/PeterMoDavis/bigfoot",
+    technologies: [
+      <i class="fab fa-html5 fa-md ml-2"></i>,
+      <i class="fab fa-css3-alt fa-md ml-2"></i>,
+      <i class="fab fa-js fa-md ml-2"></i>,
+      <i className="fab fa-react fa-md ml-2"></i>,
+      <i class="fab fa-bootstrap fa-md ml-2"></i>,
+    ],
+    tools: "react, bootstrap",
+  },
 
   {
     title: "Portfolio 2",
@@ -197,6 +215,7 @@ class Container extends Component {
             return (
               <Card
                 key={index}
+                status={each.status}
                 title={each.title}
                 href={each.href}
                 src={each.src}
