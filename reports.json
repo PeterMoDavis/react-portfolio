@@ -1,5 +1,13 @@
 [
   {
+    {
+      "date": "06/03/2021",
+      "title": "Fixed bigfoot app and put it on portfolio.",
+      "description": "The bigfoot app wasn't getting all the information from the bigfoot sightings API so I had to make another get request and then combine the arrays.  It was easier than I thought it would be.  I then added that project to this portfolio page.",
+      "tools": "react, api, javascript, mapbox"
+    },
+  },
+  {
     "date": "06/02/2021",
     "title": "Sorta finished the Bigfoot App",
     "description": "I worked on the bigfoot app today and added some ridiculous CSS and soundeffects for my own enjoyment.  It's close to done but I kind of wish i could have gotten the bigfoot pins to only appear on getting the users current position and I'd also like to have a search bar.  The api call isn't getting all the results so I have to figure out how to make subsequent fetches tomorrow. Wasn't as fun as I thought it would be :/",
