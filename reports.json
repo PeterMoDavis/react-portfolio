@@ -1,5 +1,12 @@
 [
   {
+    "date": "06/04/2021",
+    "title": "Freed Code Camp Mern Stack",
+    "description": "Just started the free code camp mern full stack walk through.  I know that I should become better at the back end.",
+    "tools": "mongdb, express, react, nodejs"
+  },
+
+  {
     "date": "06/03/2021",
     "title": "Fixed bigfoot app and put it on portfolio.",
     "description": "The bigfoot app wasn't getting all the information from the bigfoot sightings API so I had to make another get request and then combine the arrays.  It was easier than I thought it would be.  I then added that project to this portfolio page.",
