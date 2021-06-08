@@ -1,9 +1,9 @@
 [
   {
-    "date": "06/04/2021",
-    "title": "Freed Code Camp Mern Stack",
-    "description": "Just started the free code camp mern full stack walk through.  I know that I should become better at the back end.",
-    "tools": "mongdb, express, react, nodejs"
+    "date": "06/08/2021",
+    "title": "The Complete Developers Guide to MongoDB",
+    "description": "Started the Stephen Grider 13 hour MongoDB course on Udemy.  I think I could use some polishing on the back end",
+    "tools": "mongodb"
   },
 
   {
