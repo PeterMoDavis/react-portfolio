@@ -1,5 +1,11 @@
 [
   {
+    "date": "06/09/2021",
+    "title": "Slowly moving through Mongo DB",
+    "description": "Built a lot of mocha tests today while following the class. Getting back to the basics of MongoDB and Mongoose. Broke out the old Robo3T app, made a Schema, did find and findOne queries.  It's been very good review so far",
+    "tools": "mongodb, mongoose, mocha, javascript, node"
+  },
+  {
     "date": "06/08/2021",
     "title": "The Complete Developers Guide to MongoDB",
     "description": "Started the Stephen Grider 13 hour MongoDB course on Udemy.  I think I could use some polishing on the back end.",
