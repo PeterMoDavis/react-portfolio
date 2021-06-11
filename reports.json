@@ -3,7 +3,7 @@
     "date": "06/10/2021",
     "title": "Mongo DB queries and operators",
     "description": "Went through the many different queries you can use to achieve full CRUD in MongoDB and Mongoose. Used the increment update operator.  Also inplemented basic validation requiring a name and the name length to be more than 2 characters.",
-    "tools": "mongodb, mongoose, mocha, javascript, node"
+    "tools": "mongodb, mongoose, mocha, javascript, node, validation, operators, queries"
   },
   {
     "date": "06/09/2021",
