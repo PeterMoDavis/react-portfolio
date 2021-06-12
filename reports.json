@@ -6,6 +6,12 @@
     "tools": "mongodb, mongoose, mocha, javascript, node, subdocument, virtual type associations"
   },
   {
+    "date": "06/11/2021",
+    "title": "Mongo DB subdocuments and associations",
+    "description": "Added subdocument PostSchema to the User Model.  Tested adding and removing subdocuments to and fron existing records.  Added a virtual type to take the place of the incrementally defined postCount. Created associations using Refs.",
+    "tools": "mongodb, mongoose, mocha, javascript, node, subdocument, virtual type associations"
+  },
+  {
     "date": "06/10/2021",
     "title": "Mongo DB queries and operators",
     "description": "Went through the many different queries you can use to achieve full CRUD in MongoDB and Mongoose. Used the increment update operator.  Also inplemented basic validation requiring a name and the name length to be more than 2 characters.",
