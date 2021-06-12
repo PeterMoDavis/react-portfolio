@@ -38,7 +38,7 @@ const Header = () => {
           className="headerA text-center"
           target="_blank"
           style={styles.header}
-          href="https://docs.google.com/document/d/1moFOJg9zNPwFFnuYSDPCptRZ0bRQZEmRZi3yJaL18Mc/edit"
+          href="https://docs.google.com/document/d/1akK1JZJvrp9ah01ZQrF7aOPDUd4Qm2nbzheYGa9iLyI/edit?usp=sharing"
         >
           RESUME
         </a>
