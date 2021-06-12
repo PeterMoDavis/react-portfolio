@@ -1,8 +1,8 @@
 [
   {
-    "date": "06/11/2021",
-    "title": "Mongo DB subdocuments and associations",
-    "description": "Added subdocument PostSchema to the User Model.  Tested adding and removing subdocuments to and fron existing records.  Added a virtual type to take the place of the incrementally defined postCount. Created associations using Refs.",
+    "date": "06/12/2021",
+    "title": "Mongo DB populating",
+    "description": "Populated the User blogPosts.  Added middleware and a middleware test to clean up all user blog posts when the user is deleted. Learned about and used Promise.all() which seems pretty handy in my opinion.  We learned about Pagination and implemented sort(), skip(), and limit().  Finished that first project 🏁",
     "tools": "mongodb, mongoose, mocha, javascript, node, subdocument, virtual type associations"
   },
   {
