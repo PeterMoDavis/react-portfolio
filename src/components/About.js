@@ -24,7 +24,7 @@ const About = () => {
       style={{ background: "yellow" }}
       className="d-flex flex-md-row align-items-center flex-column-reverse mt-4"
     >
-      <img style={styles.img} src="./images/petejungle.png" alt="" />
+      <img style={styles.img} src="./images/peter-torso.png" alt="" />
       <div className="container mt-5 mb-0">
         <h3 style={styles.h3} className="text-center d-block d-md-none">
           PETER MODAVIS
