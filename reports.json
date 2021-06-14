@@ -2,7 +2,7 @@
   {
     "date": "06/14/2021",
     "title": "MongoDB new Steven Grider Project",
-    "description": "Started a new project within the Complete Developers Guide to MongoDB.  We started out by making Artist and Album Schemas/models.  Then we moved on to doing the more simple CRUD queries. Added minimum/maximum sort and limit queries for the collection.",
+    "description": "Started a new project within the Complete Developers Guide to MongoDB called 'UpStarMusic'.  We started out by making Artist and Album Schemas/models.  Then we moved on to doing the more simple CRUD queries. Added minimum/maximum sort and limit queries for the collection.",
     "tools": "mongodb, mongoose, mocha, javascript, node, sort, crud, limit, skip"
   },
   {
