@@ -1,7 +1,13 @@
 [
   {
+    "date": "06/15/2021",
+    "title": "MongoDB new Stephen Grider Project",
+    "description": "Added the updateMany query to artists being retired or not retired.  Finished the UpStarMusic project. Finished the project!",
+    "tools": "mongodb, mongoose, mocha, javascript, node, sort, crud, limit, skip"
+  },
+  {
     "date": "06/14/2021",
-    "title": "MongoDB new Steven Grider Project",
+    "title": "MongoDB new Stephen Grider Project",
     "description": "Started a new project within the Complete Developers Guide to MongoDB called 'UpStarMusic'.  We started out by making Artist and Album Schemas/models.  Then we moved on to doing the more simple CRUD queries. Added minimum/maximum sort and limit queries for the collection.",
     "tools": "mongodb, mongoose, mocha, javascript, node, sort, crud, limit, skip"
   },
