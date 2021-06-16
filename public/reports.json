@@ -1,9 +1,16 @@
 [
   {
+    "date": "06/16/2021",
+    "title": "Began the Node with React: Fullstack Web Development Course",
+    "description": "I'm really trying to familiarize myself fully with full-stack web development so I'm taking another Stephen Grider course. I started the express app and deployed to heroku. Spent a great deal of time lecturing about Passport and Oauth eventually finally go the user id (as provided by google) into the database.",
+    "tools": "express, heroku, oauth, passportjs, cookies, mongoose, google"
+  },
+
+  {
     "date": "06/15/2021",
     "title": "MongoDB new Stephen Grider Project",
     "description": "Added the updateMany query to artists being retired or not retired.  Finished the UpStarMusic project. Finished the project! Started the next and final project of the course.  Making a backend for a Uber rippoff using Express, Mongoose, MongoDB and testing with Mocha and Supertest. Added controllers and routers. Downloaded the Postman App (previously used Insomnia) and checked the PUT request. Added a second database just for testing. Added error handling middleware for the create route. Added update route and tested it.  Added a PointSchema subfdocument for geolocation. Added query for drivers around a certain point geographically.  The final function of the course (geoNear) was deprecated so the final test didn't work... womp womp.  I could figure it out later but  I FINISHED THE COURSE!",
-    "tools": "mongodb, mongoose, mocha, javascript, node, sort, crud, limit, skip, geojson, middleware, subdocument"
+    "tools": "mongodb, mongoose, mocha, javascript, node, sort, crud, limit, skip, geojson, middleware, subdocument, postman"
   },
   {
     "date": "06/14/2021",
