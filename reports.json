@@ -1,5 +1,12 @@
 [
   {
+    "date": "06/20/2021",
+    "title": "Made it to client side on the Grider project",
+    "description": "Finally made it to the client side and added the React server.",
+    "tools": "express, heroku, oauth, passportjs, cookies, mongoose, google"
+  },
+
+  {
     "date": "06/19/2021",
     "title": "MERN project and started doing Exercism problems",
     "description": "I started doing the Javascript track at on exercism.io.  I always sort of enjoy doing algorithm practice until i don't... ha ha. Working on the Node with React class finally made it so the user can logout. I think authenication is finally over. Made a production setup and a dev set up.",
