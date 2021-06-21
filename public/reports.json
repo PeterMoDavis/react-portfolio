@@ -1,8 +1,14 @@
 [
   {
+    "date": "06/21/2021",
+    "title": "Began Typescript class just to shake things up",
+    "description": "Made first tiny Typescript app",
+    "tools": "typescript"
+  },
+  {
     "date": "06/20/2021",
     "title": "Made it to client side on the Grider project",
-    "description": "Finally made it to the client side and added the React server. Added the concurrently module for simultaneous server starting. Refactored the then() promises to async and await/",
+    "description": "Finally made it to the client side and added the React server. Added the concurrently module for simultaneous server starting. Refactored the then() promises to async and await.",
     "tools": "express, heroku, oauth, passportjs, cookies, mongoose, google"
   },
 
