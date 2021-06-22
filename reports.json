@@ -2,8 +2,8 @@
   {
     "date": "06/21/2021",
     "title": "Began Typescript class just to shake things up",
-    "description": "Made first tiny Typescript app",
-    "tools": "typescript"
+    "description": "Made first tiny Typescript app. Learning about type annotations vs type inference.  Learned about annotating different values from primitives to objects,classes,arrays and functions. Learned about typed arrays and having multiple values. Learned about annotating tuples and how we'll probably never use them ha ha.",
+    "tools": "typescript, tuples, interfaces, annotations, inference"
   },
   {
     "date": "06/20/2021",
