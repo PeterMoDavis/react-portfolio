@@ -1,5 +1,11 @@
 [
   {
+    "date": "06/22/2021",
+    "title": "Continuing the Typescript Class",
+    "description": "Learning about Interfaces and Interface reusability. Learning the difference between public, private and protected Class methods.Began first application dealing with typescript design patterns. Learned about type definition files and how to read them instead of the docs. Attempting to write more reusable typescript. Used an Interface for reusability. Added the implment clause to help typescript show us the errors. Finished the first simple Typescript app.",
+    "tools": "typscript, interface, design patterns, type definition files"
+  },
+  {
     "date": "06/21/2021",
     "title": "Began Typescript class just to shake things up",
     "description": "Made first tiny Typescript app. Learning about type annotations vs type inference.  Learned about annotating different values from primitives to objects,classes,arrays and functions. Learned about typed arrays and having multiple values. Learned about annotating tuples and how we'll probably never use them ha ha.",
