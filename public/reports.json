@@ -2,7 +2,7 @@
   {
     "date": "06/24/2021",
     "title": "Typescript Project 2 continued",
-    "description": "Learning why Type Guards might not always be the best thing to use.",
+    "description": "Learning why Type Guards might not always be the best thing to use. Added more classes to make the app more reusable. Added an algorithm to sort a linked list which was pretty confusing.",
     "tools": "typscript, sorting, sort, algorithms, bubble sort, type guards,"
   },
   {
