@@ -1,5 +1,11 @@
 [
   {
+    "date": "06/24/2021",
+    "title": "Typescript Project 2 continued",
+    "description": "Learning why Type Guards might not always be the best thing to use.",
+    "tools": "typscript, sorting, sort, algorithms, bubble sort, type guards,"
+  },
+  {
     "date": "06/23/2021",
     "title": "Typescript Project 2",
     "description": "Started a Typescript sorting project. Configuired the Typescript compiler.  Wrote up a bubble sort now working on a Type Guard.",
