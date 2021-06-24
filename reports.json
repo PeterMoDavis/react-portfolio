@@ -1,9 +1,15 @@
 [
   {
+    "date": "06/23/2021",
+    "title": "Typescript Project 2",
+    "description": "Started a Typescript sorting project. Configuired the Typescript compiler.  Wrote up a bubble sort now working on a Type Guard.",
+    "tools": "typscript, sorting, sort, algorithms, bubble sort"
+  },
+  {
     "date": "06/22/2021",
     "title": "Continuing the Typescript Class",
     "description": "Learning about Interfaces and Interface reusability. Learning the difference between public, private and protected Class methods.Began first application dealing with typescript design patterns. Learned about type definition files and how to read them instead of the docs. Attempting to write more reusable typescript. Used an Interface for reusability. Added the implment clause to help typescript show us the errors. Finished the first simple Typescript app.",
-    "tools": "typscript, interface, design patterns, type definition files"
+    "tools": "typscript, interface, design patterns, type definition files, implement clause"
   },
   {
     "date": "06/21/2021",
