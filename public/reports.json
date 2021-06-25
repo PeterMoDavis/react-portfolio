@@ -1,5 +1,11 @@
 [
   {
+    "date": "06/25/2021",
+    "title": "Typescript Project 2 continued (it's my birthday!🎈)",
+    "description": "Learning about and implementing Abstract Classes. Refactored other Classes to extend the abstract class of Sorter.  Learning when and why to use Interfaces vs. Inheritance/Abstract Classes.  Started new Typescript project called Stats.  Added a csv file which we parsed and ran one simple analysis. Now I am being introduced to Enums. Used a Type Assertion.  Added a Tuple and am getting ready to refactor the CsvFileReader class.",
+    "tools": "typscript, sorting, sort, algorithms, abstract classes, enum"
+  },
+  {
     "date": "06/24/2021",
     "title": "Typescript Project 2 continued",
     "description": "Learning why Type Guards might not always be the best thing to use. Added more classes to make the app more reusable. Added an algorithm to sort a linked list which was pretty confusing.",
