@@ -1,9 +1,27 @@
 [
   {
+    "date": "06/29/2021",
+    "title": "Typescript Project 4 continued",
+    "description": "Building a JSON server. Saving users to the JSON server. Added fetch functionality.  Added post and put functionality. Beginning Composition refactor of User 'megaclass'. Refactored and added eventing class. Extracted 3 classes from User.ts. Learned that in Typescript a string can by a type.",
+    "tools": "typescript, generics, type inference, eventer, eventing, crud, axios"
+  },
+  {
+    "date": "06/28/2021",
+    "title": "Typescript Project 3 continued",
+    "description": "Finsished project 3, now going more in depth learning bout Generics. Condensing simmilar classed into one using Generics. Learning about type inference. Started project 4: 'Let's Build a Framework'.  Working on the User 'MegaClass'. Making an eventing style setup.",
+    "tools": "typescript, generics, type inference, eventer, eventing"
+  },
+  {
+    "date": "06/27/2021",
+    "title": "Typescript Project 3 continued",
+    "description": "Learning about and implementing Generics. Refactored the CsvFilerReader to be more reusable. Learning about Inheritance vs Composition.",
+    "tools": "typescript, generic, inheritance, composition"
+  },
+  {
     "date": "06/25/2021",
     "title": "Typescript Project 2 continued (it's my birthday!🎈)",
     "description": "Learning about and implementing Abstract Classes. Refactored other Classes to extend the abstract class of Sorter.  Learning when and why to use Interfaces vs. Inheritance/Abstract Classes.  Started new Typescript project called Stats.  Added a csv file which we parsed and ran one simple analysis. Now I am being introduced to Enums. Used a Type Assertion.  Added a Tuple and am getting ready to refactor the CsvFileReader class.",
-    "tools": "typscript, sorting, sort, algorithms, abstract classes, enum"
+    "tools": "typescript, sorting, sort, algorithms, abstract classes, enum"
   },
   {
     "date": "06/24/2021",
