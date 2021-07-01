@@ -1,5 +1,17 @@
 [
   {
+    "date": "06/30/2021",
+    "title": "Typescript Project 4 continued",
+    "description": "Added the fetch and save methods.  Attempting to make the User class more reusable. More learning about Inheritance vs Composition.",
+    "tools": "typscript"
+  },
+  {
+    "date": "06/30/2021",
+    "title": "Typescript Project 4 continued",
+    "description": "Added the fetch and save methods.  Attempting to make the User class more reusable. More learning about Inheritance vs Composition.",
+    "tools": "typscript"
+  },
+  {
     "date": "06/29/2021",
     "title": "Typescript Project 4 continued",
     "description": "Building a JSON server. Saving users to the JSON server. Added fetch functionality.  Added post and put functionality. Beginning Composition refactor of User 'megaclass'. Refactored and added eventing class. Extracted 3 classes from User.ts. Learned that in Typescript a string can by a type.",
