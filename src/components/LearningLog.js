@@ -1,50 +1,50 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class LearningLog extends Component {
   state = {
     reports: [],
-    search: "",
+    search: '',
   };
 
   styles = {
     logContainer: {
-      border: " rgb(0, 255, 234) solid 2px",
-      backgroundColor: "rgb(0, 255, 234)",
-      borderRadius: "5px",
-      boxShadow: "0 0 10px rgb(0, 255, 234)",
-      width: "80vw",
-      height: "30vh",
-      overflowY: "auto",
+      border: ' rgb(0, 255, 234) solid 2px',
+      backgroundColor: 'rgb(0, 255, 234)',
+      borderRadius: '5px',
+      boxShadow: '0 0 10px rgb(0, 255, 234)',
+      width: '80vw',
+      height: '30vh',
+      overflowY: 'auto',
     },
     header: {
-      fontWeight: "800",
-      letterSpacing: "10px",
-      color: "rgb(0, 255, 234)",
+      fontWeight: '800',
+      letterSpacing: '10px',
+      color: 'rgb(0, 255, 234)',
     },
 
     tableHeader: {
-      border: "none",
-      position: "sticky",
-      top: "0",
-      zIndex: "1",
-      background: "rgb(0, 255, 234)",
+      border: 'none',
+      position: 'sticky',
+      top: '0',
+      zIndex: '1',
+      background: 'rgb(0, 255, 234)',
     },
     tableBody: {
-      border: "1px black solid",
+      border: '1px black solid',
     },
     input: {
-      width: "200px",
-      borderRadius: "3px",
-      border: "none",
-      backgroundColor: "rgb(245, 236, 140)",
+      width: '200px',
+      borderRadius: '3px',
+      border: 'none',
+      backgroundColor: 'rgb(245, 236, 140)',
     },
   };
 
   getReports = () => {
-    fetch("./reports.json", {
+    fetch('./reports.json', {
       headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
       },
     })
       .then((res) => {
@@ -58,11 +58,11 @@ class LearningLog extends Component {
 
   filterReports = (e) => {
     this.setState({ search: e.target.value }, () => {
-      let regex = RegExp(this.state.search, "gi");
-      fetch("./reports.json", {
+      let regex = RegExp(this.state.search, 'gi');
+      fetch('./reports.json', {
         headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
         },
       })
         .then((res) => {
@@ -88,34 +88,34 @@ class LearningLog extends Component {
 
   render() {
     return (
-      <div className="d-flex flex-column align-items-center my-4">
-        <h4 style={this.styles.header} className="mt-1 text-center">
+      <div className='d-flex flex-column align-items-center my-4'>
+        <h4 style={this.styles.header} className='mt-1 text-center'>
           PROGRESS LOG
         </h4>
         <input
           onChange={this.filterReports}
-          type="text"
+          type='text'
           style={this.styles.input}
-          className="mt-2 mb-4 p-1"
-          placeholder="Search"
+          className='mt-2 mb-4 p-1'
+          placeholder='Search'
         />
         <div
           style={this.styles.logContainer}
-          className="d-flex flex-column align-items-center"
+          className='d-flex flex-column align-items-center'
         >
-          <table className="table" style={this.styles.table}>
+          <table className='table' style={this.styles.table}>
             <thead>
               <tr>
-                <th style={this.styles.tableHeader} scope="col">
+                <th style={this.styles.tableHeader} scope='col'>
                   Date
                 </th>
-                <th style={this.styles.tableHeader} scope="col">
+                <th style={this.styles.tableHeader} scope='col'>
                   Title
                 </th>
-                <th style={this.styles.tableHeader} scope="col">
+                <th style={this.styles.tableHeader} scope='col'>
                   Description
                 </th>
-                <th style={this.styles.tableHeader} scope="col">
+                <th style={this.styles.tableHeader} scope='col'>
                   Tools
                 </th>
               </tr>
