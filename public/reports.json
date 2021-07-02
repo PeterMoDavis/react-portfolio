@@ -1,5 +1,11 @@
 [
   {
+    "date": "07/02/2021",
+    "title": "Typescript/Express Project 5 continued",
+    "description": "Learning how middleware messes up Typescript when using popular JS frameworks. Added Cookie Sessions.  Set up requireAuth middleware. Refactoring the App to get the benefits of Typescript.",
+    "tools": "typscript, middleware, express"
+  },
+  {
     "date": "07/01/2021",
     "title": "Typescript Project 4 continued",
     "description": "Finalized the Collection class. Starting the 'view' side of the app. Working on rendering HTML. Rendering user form onto the browser. Added eventing system to view. Added a random age button and method. Making a reusable abstrac class View that renders HTML. Added a user save button. Finished the 4th project.  It was very long and was 6 hours of video. On to Express and Typescript Integration. Built out a very simple server, learning why Express (and body-parser) is hard to use with Typescript.",
