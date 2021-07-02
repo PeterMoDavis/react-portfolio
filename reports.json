@@ -2,8 +2,8 @@
   {
     "date": "07/01/2021",
     "title": "Typescript Project 4 continued",
-    "description": "Finalized the Collection class. Starting the 'view' side of the app. Working on rendering HTML. Rendering user form onto the browser. Added eventing system to view. Added a random age button and method. Making a reusable HtmlRenderer class.",
-    "tools": "typscript, views, classes, class, template element"
+    "description": "Finalized the Collection class. Starting the 'view' side of the app. Working on rendering HTML. Rendering user form onto the browser. Added eventing system to view. Added a random age button and method. Making a reusable abstrac class View that renders HTML. Added a user save button. Finished the 4th project.  It was very long and was 6 hours of video. On to Express and Typescript Integration. Built out a very simple server, learning why Express (and body-parser) is hard to use with Typescript.",
+    "tools": "typscript, views, classes, class, template element, render, html, abstract, , express, body-parser"
   },
   {
     "date": "06/30/2021",
