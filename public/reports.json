@@ -2,8 +2,8 @@
   {
     "date": "07/02/2021",
     "title": "Typescript/Express Project 5 continued",
-    "description": "Learning how middleware messes up Typescript when using popular JS frameworks. Added Cookie Sessions.  Set up requireAuth middleware. Refactoring the App to get the benefits of Typescript.",
-    "tools": "typscript, middleware, express"
+    "description": "Learning how middleware messes up Typescript when using popular JS frameworks. Added Cookie Sessions.  Set up requireAuth middleware. Refactoring the App to get the benefits of Typescript such as type safety and enhancing the developer experience. Learning about decorators. Reviewing prototypes.",
+    "tools": "typscript, middleware, express, decorators, prototypes"
   },
   {
     "date": "07/01/2021",
