@@ -1,5 +1,11 @@
 [
   {
+    "date": "07/08/2021",
+    "title": "Beginning: JavaScript and Data Structures Masterclass",
+    "description": "Learning about how Big O can help compare algorithms. Learning about counting operations. Learning the difference between O(1), O(n) and O(n^2). Learned hot to simplify big O expressions. Learning the difference between time complexity and space complexity. Insertion, removal, searching and access of Objects are all O(1).",
+    "tools": "big o, time complexity, space complexity, algorithms, logarithms"
+  },
+  {
     "date": "07/07/2021",
     "title": "Starting final Typescript/React project",
     "description": "Created a react app. Learning how to use generic Classes with and interface and props. Learned the differences between setting state the simple way and overwriting the typescript definition and using a constructor and having to use the second generic argumen for the class component. Learned how to set up a functional component with typescript. FINISHED THE CLASS ! 🏁`",
