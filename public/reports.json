@@ -1,5 +1,11 @@
 [
   {
+    "date": "07/07/2021",
+    "title": "Starting final Typescript/React project",
+    "description": "Created a react app. Learning how to use generic Classes with and interface and props. Learned the differences between setting state the simple way and overwriting the typescript definition and using a constructor and having to use the second generic argumen for the class component. Learned how to set up a functional component with typescript. FINISHED THE CLASS ! 🏁`",
+    "tools": "typescript, react, props, interface, class, component, constructor, enum, function, txs, jsx"
+  },
+  {
     "date": "07/02/2021",
     "title": "Typescript/Express Project 5 continued",
     "description": "Learning how middleware messes up Typescript when using popular JS frameworks. Added Cookie Sessions.  Set up requireAuth middleware. Refactoring the App to get the benefits of Typescript such as type safety and enhancing the developer experience. Learning about decorators. Reviewing prototypes.",
