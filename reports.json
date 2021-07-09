@@ -2,7 +2,7 @@
   {
     "date": "07/08/2021",
     "title": "Beginning: JavaScript and Data Structures Masterclass",
-    "description": "Learning about how Big O can help compare algorithms. Learning about counting operations. Learning the difference between O(1), O(n) and O(n^2). Learned hot to simplify big O expressions. Learning the difference between time complexity and space complexity. Insertion, removal, and access of Objects are all O(1).  Searching is O(n).  Array Insertion and Removal is is O(1) if done at the end and O(n) if done at the front. Searching is O(n) and Access is O(1). Very interesting! 🧐",
+    "description": "Learning about how Big O can help compare algorithms. Learning about counting operations. Learning the difference between O(1), O(n) and O(n^2). Learned hot to simplify big O expressions. Learning the difference between time complexity and space complexity. Insertion, removal, and access of Objects are all O(1).  Searching is O(n).  Array Insertion and Removal is is O(1) if done at the end and O(n) if done at the front. Searching is O(n) and Access is O(1). Very interesting🧐!  Learning steps for a problem solving approach including Understanding the Problem, Exploring Examples, Breaking it Down, Solving and Simplifying, and Refactoring.",
     "tools": "big o, time complexity, space complexity, algorithms, logarithms"
   },
   {
