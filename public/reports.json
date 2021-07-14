@@ -1,8 +1,8 @@
 [
   {
-    "date": "07/13/2021",
+    "date": "07/14/2021",
     "title": "Continuing JS Algorithm Masterclass",
-    "description": "",
+    "description": "Learning the 'sliding window' way of grouping characters in a string. Goin over recursion.",
     "tools": "big o, time complexity, space complexity, algorithms, logarithms"
   },
   {
