@@ -1,8 +1,14 @@
 [
   {
+    "date": "07/14/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Learning the 'sliding window' way of grouping characters in a string. Goin over recursion. Learning the difference between Helper Method Recursion and Pure Recursion. Helper Method Recursion to compile an array.",
+    "tools": "sliding window, recursion, pure recursion, helper method recursion"
+  },
+  {
     "date": "07/09/2021",
     "title": "Continuing JS Algorithm Masterclass",
-    "description": "Learning a frequency counter pattern that does not use nested loops to keep it a O(n) instead of O(n^2). Learning about using multiple pointers in loops to compare iterables.",
+    "description": "Learning a frequency counter pattern that does not use nested loops to keep it a O(n) instead of O(n^2). Learning about using multiple pointers in loops to compare and sort iterables.",
     "tools": "big o, time complexity, space complexity, algorithms, logarithms"
   },
   {
@@ -14,7 +20,7 @@
   {
     "date": "07/07/2021",
     "title": "Starting final Typescript/React project",
-    "description": "Created a react app. Learning how to use generic Classes with and interface and props. Learned the differences between setting state the simple way and overwriting the typescript definition and using a constructor and having to use the second generic argumen for the class component. Learned how to set up a functional component with typescript. FINISHED THE CLASS ! 🏁`",
+    "description": "Created a react app. Learning how to use generic Classes with and interface and props. Learned the differences between setting state the simple way and overwriting the typescript definition and using a constructor and having to use the second generic argument for the class component. Learned how to set up a functional component with typescript. FINISHED THE CLASS ! 🏁`",
     "tools": "typescript, react, props, interface, class, component, constructor, enum, function, txs, jsx"
   },
   {
