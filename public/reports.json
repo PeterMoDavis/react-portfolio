@@ -2,8 +2,8 @@
   {
     "date": "07/14/2021",
     "title": "Continuing JS Algorithm Masterclass",
-    "description": "Learning the 'sliding window' way of grouping characters in a string. Goin over recursion.",
-    "tools": "big o, time complexity, space complexity, algorithms, logarithms"
+    "description": "Learning the 'sliding window' way of grouping characters in a string. Goin over recursion. Learning the difference between Helper Method Recursion and Pure Recursion. Helper Method Recursion to compile an array.",
+    "tools": "sliding window, recursion, pure recursion, helper method recursion"
   },
   {
     "date": "07/09/2021",
