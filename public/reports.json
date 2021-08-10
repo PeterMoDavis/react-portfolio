@@ -1,5 +1,17 @@
 [
   {
+    "date": "08/09/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Went over Linear Search and Binary Search.",
+    "tools": "linear search, binary search"
+  },
+  {
+    "date": "07/15/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Writing recursive functions.",
+    "tools": "sliding window, recursion, pure recursion, helper method recursion"
+  },
+  {
     "date": "07/14/2021",
     "title": "Continuing JS Algorithm Masterclass",
     "description": "Learning the 'sliding window' way of grouping characters in a string. Goin over recursion. Learning the difference between Helper Method Recursion and Pure Recursion. Helper Method Recursion to compile an array.",
