@@ -1,5 +1,11 @@
 [
   {
+    "date": "08/10/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Going over bubble sort and bubble sort optimization.",
+    "tools": "bubble sort, optimization, sorting, sort"
+  },
+  {
     "date": "08/09/2021",
     "title": "Continuing JS Algorithm Masterclass",
     "description": "Went over Linear Search and Binary Search.",
