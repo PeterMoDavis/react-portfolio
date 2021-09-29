@@ -1,5 +1,11 @@
 [
   {
+    "date": "09/29/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "going back and reviewing Problem solving approaches and patterns.",
+    "tools": "loops, Big O notation, frequency counter, multiple pointers, divide and conquer"
+  },
+  {
     "date": "08/10/2021",
     "title": "Continuing JS Algorithm Masterclass",
     "description": "Going over bubble sort and bubble sort optimization.",
