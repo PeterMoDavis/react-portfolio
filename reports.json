@@ -2,7 +2,7 @@
   {
     "date": "10/1/2021",
     "title": "Continuing JS Algorithm Masterclass",
-    "description": "going back and reviewing recursion, recursion pitfalls.  Learning about helper method recursion which keeps the scoped inputs from resetting during the process.",
+    "description": "going back and reviewing recursion, recursion pitfalls.  Learning about helper method recursion which keeps the scoped inputs from resetting during the process. Refreshing my knowledge of linear search and binary search.",
     "tools": "recursion, recursive functions"
   },
   {
