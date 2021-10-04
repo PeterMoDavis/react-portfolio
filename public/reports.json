@@ -1,5 +1,12 @@
 [
   {
+    "date": "10/4/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Going over Linear and Binary Search...  Learining the naive and more advanced, efficient approaches.",
+    "tools": "recursion, recursive functions, search, searching, linear, binary, sorted, unsorted"
+  },
+
+  {
     "date": "10/1/2021",
     "title": "Continuing JS Algorithm Masterclass",
     "description": "going back and reviewing recursion, recursion pitfalls.  Learning about helper method recursion which keeps the scoped inputs from resetting during the process. Refreshing my knowledge of linear search and binary search.",
