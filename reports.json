@@ -1,5 +1,11 @@
 [
   {
+    "date": "10/5/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Learning the differences between the quadratic sorting algorithmsl like Bubble Sort, Insertion Sort and Selection Sort vs the harder to understand Merge Sort, Quick Sort and Radix Sort",
+    "tools": "sorted, unsorted, selection, insertion, bubble, merge, radix, quck"
+  },
+  {
     "date": "10/4/2021",
     "title": "Continuing JS Algorithm Masterclass",
     "description": "Going over Linear and Binary Search...  Learining the naive and more advanced, efficient approaches.  Learning how to write and understand the differences between Bubble Sort, Selection Sort and Insertion Sort",
