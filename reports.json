@@ -2,7 +2,7 @@
   {
     "date": "10/4/2021",
     "title": "Continuing JS Algorithm Masterclass",
-    "description": "Going over Linear and Binary Search...  Learining the naive and more advanced, efficient approaches.",
+    "description": "Going over Linear and Binary Search...  Learining the naive and more advanced, efficient approaches.  Learning how to write and understand the differences between Bubble Sort, Selection Sort and Insertion Sort",
     "tools": "recursion, recursive functions, search, searching, linear, binary, sorted, unsorted"
   },
 
