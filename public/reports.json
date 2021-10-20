@@ -1,5 +1,11 @@
 [
   {
+    "date": "10/19/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Learned the definition and how to create a Doubly Linked List using the Javascript Class.  Made Push, Pop, Unshift, Shift, Get, Set, Insert, Remove and Reverse methods for said class.",
+    "tools": "doubly linked list, class, javascript, push, pop, unshift, shift, methods, data structures"
+  },
+  {
     "date": "10/18/2021",
     "title": "Continuing JS Algorithm Masterclass",
     "description": "Learned the definition and how to create a Singly Linked List using the Javascript Class.  Made Push, Pop, Unshift, Shift, Get, Set, Insert, Remove and Reverse methods for said class.",
