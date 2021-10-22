@@ -1,5 +1,11 @@
 [
   {
+    "date": "10/21/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Created a Stack Class (LIFO) and a Queue Class (FIFO) with Push, Pop and Enqueue and Dequeue repectively.  Learned the difference between each and also created simple versions using arrays.",
+    "tools": "stack, array, queue, lifo, fifo, javascript, data structures, linked list, class"
+  },
+  {
     "date": "10/20/2021",
     "title": "Continuing JS Algorithm Masterclass",
     "description": "Added the Get, Set, Insert and Remove to the doubly linked list Class.",
