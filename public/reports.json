@@ -2,7 +2,7 @@
   {
     "date": "10/26/2021",
     "title": "Continuing JS Algorithm Masterclass",
-    "description": "Learning different tree traversal types such as Breadth First Search and Depth First Search.  Created an insert method and contains method for the Binary Search Tree Class.  Added a Depth First Search (PreOrder) method to traverse the tree.  It uses a recursive helper function callsed traverse which is pretty nifty.",
+    "description": "Learning different tree traversal types such as Breadth First Search and Depth First Search.  Created an insert method for the Binary Search Tree Class. Added a Breadth First Search method for horizontal searching. Added 3 Depth First Searches (PreOrder, PostOrder and InOrder) method to traverse the tree.  They use a recursive helper function called traverse which is pretty nifty.",
     "tools": "tree, trees, depth first search, breadth first search, binary search tree"
   },
   {
