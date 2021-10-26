@@ -1,5 +1,17 @@
 [
   {
+    "date": "10/26/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Learning different tree traversal types such as Breadth First Search and Depth First Search.  Created an insert method and contains method for the Binary Search Tree Class.",
+    "tools": "tree, trees, depth first search, breadth first search, binary search tree"
+  },
+  {
+    "date": "10/21/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Learning and creating a Tree Class (specifically a Binary Search Tree.  ",
+    "tools": "stack, array, queue, lifo, fifo, javascript, data structures, linked list, class"
+  },
+  {
     "date": "10/21/2021",
     "title": "Continuing JS Algorithm Masterclass",
     "description": "Created a Stack Class (LIFO) and a Queue Class (FIFO) with Push, Pop and Enqueue and Dequeue repectively.  Learned the difference between each and also created simple versions using arrays.",
