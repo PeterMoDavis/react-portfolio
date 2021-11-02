@@ -2,7 +2,7 @@
   {
     "date": "11/2/2021",
     "title": "Continuing JS Algorithm Masterclass",
-    "description": "Still working on hash tables created keys and values methods to the hash table class which list all keys or values in an array.  Learned terminology for graphs including vertex and edge as well as different kinds of graphs such as weighted, unweighted, undirected and directed. Learned the difference between an adjacency matrix vs an adjacency list.  Created a Graph class with an add Vertex and add Edge method.",
+    "description": "Still working on hash tables created keys and values methods to the hash table class which list all keys or values in an array.  Learned terminology for graphs including vertex and edge as well as different kinds of graphs such as weighted, unweighted, undirected and directed. Learned the difference between an adjacency matrix vs an adjacency list.  Created a Graph class with an add Vertex and add Edge method as well as a remove Edge and remove Vertex method.",
     "tools": "hash tables, set, get, vertex, edge, undirected, directed, weighted, add vertex, add edge, method, unweighted"
   },
   {
