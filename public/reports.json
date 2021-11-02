@@ -1,5 +1,11 @@
 [
   {
+    "date": "11/2/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Still working on hash tables created keys and values methods to the hash table class which list all keys or values in an array",
+    "tools": "hash tables, set, get"
+  },
+  {
     "date": "10/28/2021",
     "title": "Continuing JS Algorithm Masterclass",
     "description": "Created a priority Queue Class.  Moved on to Hash Tables.  Created a hash table class and implemented Set and Get on it.",
