@@ -2,8 +2,8 @@
   {
     "date": "11/3/2021",
     "title": "Continuing JS Algorithm Masterclass",
-    "description": "Beginning Graph Traversal.  Added Depth First Recursive method to the graph class.",
-    "tools": "graph, graphs, traversal, recursion"
+    "description": "Beginning Graph Traversal.  Added a Depth First Recursive method, a Depth First Iterative method and a Breadth First method to the graph class.",
+    "tools": "graph, graphs, traversal, recursion, depth first, recusive, recursion, iteration, iterative"
   },
   {
     "date": "11/2/2021",
