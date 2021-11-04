@@ -2,8 +2,8 @@
   {
     "date": "11/4/2021",
     "title": "Continuing JS Algorithm Masterclass",
-    "description": "Began learning Dikstra's Algorithm. Created a weighted graph class.",
-    "tools": "graph, graphs, traversal, recursion, depth first, recusive, recursion, iteration, iterative"
+    "description": "Began learning Dijkstra's Algorithm. Created a weighted graph class.",
+    "tools": "Dijkstra's algorithm, algorithm, weighted graph"
   },
   {
     "date": "11/3/2021",
