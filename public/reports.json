@@ -2,7 +2,13 @@
   {
     "date": "11/4/2021",
     "title": "Continuing JS Algorithm Masterclass",
-    "description": "Began learning Dijkstra's Algorithm. Created a weighted graph class.",
+    "description": "Created a memoization version of the fibonacci function. Learning about a Bottom Up approach vs. Top Down approach.",
+    "tools": "Dijkstra's algorithm, algorithm, weighted graph"
+  },
+  {
+    "date": "11/4/2021",
+    "title": "Continuing JS Algorithm Masterclass",
+    "description": "Began learning Dijkstra's Algorithm. Created a weighted graph class.  Created a Dijkstra's algorithm method on the weighted graph class.  Began learning what 'Dynamic Programming' is. Learning about overlapping subproblems and optimal substructure.",
     "tools": "Dijkstra's algorithm, algorithm, weighted graph"
   },
   {
