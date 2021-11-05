@@ -2,8 +2,8 @@
   {
     "date": "11/4/2021",
     "title": "Continuing JS Algorithm Masterclass",
-    "description": "Created a memoization version of the fibonacci function. Learning about a Bottom Up approach vs. Top Down approach.",
-    "tools": "Dijkstra's algorithm, algorithm, weighted graph"
+    "description": "Created a memoization version of the fibonacci function. Learning about a Bottom Up approach vs. Top Down approach. Went back to learning about sorting algorithms the first one being Quick Sort.  Creating a Quick Sort helper function called pivot. Created a quick sort function",
+    "tools": "fibonaccci, memoization, pivot, quick sort"
   },
   {
     "date": "11/4/2021",
