@@ -1,5 +1,11 @@
 [
   {
+    "date": "11/8/2021",
+    "title": "Started Stephen Grider's The Coding Interview Bootcamp: Algorithms + Data Structures",
+    "description": "Started off with a  simple problem of reversing a string.  Came up with 3 different solutions.",
+    "tools": "string, reverse, data structures, algorithms, stephen grider"
+  },
+  {
     "date": "11/4/2021",
     "title": "Continuing JS Algorithm Masterclass",
     "description": "Created a memoization version of the fibonacci function. Learning about a Bottom Up approach vs. Top Down approach. Went back to learning about sorting algorithms the first one being Quick Sort.  Creating a Quick Sort helper function called pivot. Created a quick sort function. Created helper methods for Radix Sort. Created a radix sort function.  FINISHED THE COURSE!!!",
